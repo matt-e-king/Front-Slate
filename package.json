@@ -1,13 +1,13 @@
 {
   "name": "front-slate",
   "description": "Front End Development Clean Slate",
-  "version": "1.1.15",
+  "version": "0.0.0",
   "homepage": "http://web.crownchimp.com/matthew-king",
   "author": "Matthew King",
   "main": "Gruntfile.js",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/matt-e-king/Front-Slate.git"
   },
   "devDependencies": {
     "btoa": "~1.1.1",

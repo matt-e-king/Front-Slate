@@ -17,17 +17,17 @@ module.exports = function (grunt) {
 
     bump: {
       options: {
-        // files: ['package.json', 'data/*'],
-        // updateConfigs: ['pkg'],
-        // commit: true,
-        // commitMessage: 'Release v%VERSION%',
-        // commitFiles: ['package.json', 'data/*'],
-        // createTag: true,
-        // tagName: 'v%VERSION%',
-        // tagMessage: 'Version %VERSION%',
-        // push: true,
-        // pushTo: '<insert your git repo>',
-        // gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d'
+        files: ['package.json', 'data/*'],
+        updateConfigs: ['pkg'],
+        commit: true,
+        commitMessage: 'Release v%VERSION%',
+        commitFiles: ['package.json', 'data/*'],
+        createTag: true,
+        tagName: 'v%VERSION%',
+        tagMessage: 'Version %VERSION%',
+        push: true,
+        pushTo: 'pkg.repository.url',
+        gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d'
       }
     },
 
