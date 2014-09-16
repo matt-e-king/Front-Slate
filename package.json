@@ -1,7 +1,7 @@
 {
   "name": "front-slate",
   "description": "Front End Development Clean Slate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "http://web.crownchimp.com/matthew-king",
   "author": "Matthew King",
   "main": "Gruntfile.js",
