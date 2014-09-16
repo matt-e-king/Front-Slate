@@ -26,7 +26,7 @@ module.exports = function (grunt) {
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
         push: true,
-        pushTo: 'pkg.repository.url',
+        pushTo: '<%= pkg.repository.url %>',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d'
       }
     },
