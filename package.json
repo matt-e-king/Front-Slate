@@ -1,0 +1,31 @@
+{
+  "name": "front-slate",
+  "description": "Front End Development Clean Slate",
+  "version": "1.1.15",
+  "homepage": "http://web.crownchimp.com/matthew-king",
+  "author": "Matthew King",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {
+    "btoa": "~1.1.1",
+    "canonical-json": "~0.0.3",
+    "grunt": "~0.4.2",
+    "grunt-banner": "~0.2.0",
+    "grunt-bump": "~0.0.x",
+    "grunt-contrib-clean": "~0.5.x",
+    "grunt-contrib-concat": "~0.3.x",
+    "grunt-contrib-copy": "~0.5.x",
+    "grunt-contrib-csslint": "~0.2.x",
+    "grunt-contrib-jshint": "~0.8.x",
+    "grunt-contrib-less": "~0.9.x",
+    "grunt-contrib-uglify": "~0.3.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-csscomb": "~2.0.1",
+    "grunt-mustache-render": "~1.2.x",
+    "load-grunt-tasks": "~0.3.x",
+    "markdown": "~0.5.x"
+  }
+}

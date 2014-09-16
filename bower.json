@@ -1,0 +1,12 @@
+{
+  "name": "front-slate",
+  "description": "Front End Development Clean Slate",
+  "dependencies": {
+    "bootstrap" : "~3.2.0"
+    , "angular" : "~1.2.x"
+    , "angular-route" : "~1.2.x"
+    , "angular-scroll": "~0.6.1"
+    , "jquery" : "~1.10.x" 
+    , "font-awesome" : "~4.2.x" 
+  }
+}
