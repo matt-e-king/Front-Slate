@@ -31,11 +31,6 @@ module.exports = function (grunt) {
       }
     },
 
-    mainConfig: {
-      pageType : 'main'
-      , version : '<%= pkg.version %>'
-      , Index : grunt.file.readJSON('data/index.json')
-    },
     banner: '/*!\n' +
             ' * Front End Development Clean Slate v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' */\n',
@@ -74,7 +69,7 @@ module.exports = function (grunt) {
         },
         files: [
           {
-            data: '<%= mainConfig.Index %>',
+            data: 'data/index.json',
             template: 'templates/pages/index.mustache',
             dest: 'index.html'
           }
