@@ -74,12 +74,14 @@ Quick Tutorial
   1. `<% > header %>`
   2. `<% > footer %>`
 16. For funsies, lets edit the header.mustache file located in **templates/partials/** directory, add the following code inside of the div#main:
+
         <div class="jumbotron">
-      	  <div class="container">
-      	    <h1>Hello, world</h1>
-      	    <p><% Subheader %></p>
-      	  </div>
-      	</div>
+          <div class="container">
+            <h1>Hello, world</h1>
+            <p><% Subheader %></p>
+          </div>
+        </div>
+      	
 27. Run command line `grunt build` - open up articles.html in the browser
 
 
