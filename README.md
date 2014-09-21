@@ -82,7 +82,7 @@ Quick Tutorial
           </div>
         </div>
       	
-27. Run command line `grunt build` - open up articles.html in the browser
+17. Run command line `grunt build` - open up articles.html in the browser
 
 
 More documetation in progress...
