@@ -82,7 +82,15 @@ Quick Tutorial
           </div>
         </div>
       	
-17. Run command line `grunt build` - open up articles.html in the browser
+17. Run command line `grunt build` - open up articles.html in the browser, you won't see the `<p><% Subheader %></p>` until you open up the articles.json file and add a new key : value pair - `"Subheader" : "Articles page"`
+18. Once you add that value to articles.json you will need to run `grunt build` again on the timeline
+19. Since index.html is also pulling in the header partial, it should now have the Bootstrap jumbtron that we added to the header.mustache file
+20. This should give you an example of how pages are built.
+21. Quick tip - if you open up a new command line window, navigate to your working directory and run `grunt watch`, GruntJS will watch your edit and compile everything on the fly.
 
 
-More documetation in progress...
+Gruntfile.js
+------------
+Next, lets go over some of the key Grunt functions in the main Gruntfile.js. Each function will be followed by an explanation of how it fits into the workflow explain from the tutorial above.
+
+More documentation to come...
